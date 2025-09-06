@@ -1,0 +1,46 @@
+Design a modern, minimalistic PWA home screen with the following visual style:
+
+1. **Color Palette**
+   - Background: dark blue-grey (#1E2A38)
+   - Header: slightly lighter dark grey (#273746)
+   - Button gradient: linear gradient from #2E3B4A to #1E2A38
+   - Button hover gradient: #354556 to #1E2A38
+   - Streak container: muted grey-blue (#3A4B5C)
+   - Text: white (#ffffff)
+
+2. **Header**
+   - Full-width horizontal bar
+   - Padding: 1rem top/bottom, 2rem left/right
+   - Rounded elements inside (streak counter)
+   - Slight border-bottom (#2E3B4A)
+   - App name left, streak counter right
+   - Streak container: rounded corners, small padding, bold text
+
+3. **Buttons**
+   - Large, pill-shaped rectangles with 20px border-radius
+   - Subtle 3D shadow effect: soft inner and outer shadows
+   - Hover effect: raise the button slightly (translateY), darken gradient, enhance shadow
+   - Font: bold, sans-serif, ~1.5rem
+   - Width: ~80% of container on mobile, flex-grow on desktop
+   - Padding: 2rem vertical
+
+4. **Layout**
+   - Main area vertically stacked buttons on small screens
+   - Horizontally aligned buttons on wider screens
+   - Flexible spacing: 2rem gap between buttons
+   - Responsive design with max-width constraint for buttons (~400px)
+
+5. **Transitions**
+   - Smooth 0.2s transition for hover effects (transform, shadow, background)
+   - Subtle movement to give “app-like” interactivity
+
+6. **Typography**
+   - Font-family: clean sans-serif (e.g., Segoe UI)
+   - White text throughout
+   - Bold for headers and buttons
+
+7. **Overall feel**
+   - Modern, clean, minimal
+   - Rounded, soft, slightly 3D components
+   - Dark blue-grey tones dominate
+   - Subtle gradients and shadows for depth
