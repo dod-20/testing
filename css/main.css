@@ -1,0 +1,76 @@
+ /* === Global === */
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+    body { background-color: #1E2A38; color: #ffffff; min-height: 100vh; display: flex; flex-direction: column; }
+
+    /* === Header === */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #273746;
+      border-bottom: 2px solid #2E3B4A;
+    }
+    .header-title { font-size: 1.5rem; }
+    .streak {
+      background-color: #3A4B5C;
+      padding: 0.5rem 1rem;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    /* === Main container === */
+    .main-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .lesson-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content:left;
+      align-items: center;
+
+      background-color: #273746;
+      border-radius: 1.5rem;
+      padding: 2rem;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.3), 
+                  0 4px 8px rgba(0,0,0,0.4);
+    }
+
+    /* === Buttons === */
+    .button {
+      width: 80%;
+      max-width: 400px;
+      padding: 2rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ffffff;
+      background: linear-gradient(145deg, #2E3B4A, #1E2A38);
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+      box-shadow: 4px 4px 10px #1A212D, -4px -4px 10px #354556;
+    }
+    .button:hover {
+      transform: translateY(-4px);
+      background: linear-gradient(145deg, #354556, #1E2A38);
+      box-shadow: 6px 6px 12px #1A212D, -6px -6px 12px #3A4B5C;
+    }
+    /* size modifier */
+    .button.large { font-size: 1.5rem; padding: 2rem; }
+
+    @media (min-width: 600px) {
+      .main-container { flex-direction: row; }
+      .button { flex: 1; }
+    }
