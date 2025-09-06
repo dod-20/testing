@@ -1,0 +1,20 @@
+{
+  "lessonId": 1,
+  "title": "Past tense: tóg",
+  "tense": "past",
+  "exercises": [
+    {
+      "type": "fill-in-the-blank",
+      "sentence": "____ an doras.",
+      "verb": "He took",
+      "expectedAnswer": "thóg sé"
+    },
+    {
+      "type": "multiple-choice",
+      "sentence": "____ an bia.",
+      "subject": "she",
+      "options": ["thóg sí", "d’ith sí", "nigh sí"],
+      "correctOption": 1
+    }
+  ]
+}
