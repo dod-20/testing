@@ -1,6 +1,6 @@
 {
   "lessonId": 1,
-  "title": "Past tense: tóg",
+  "title": "Adding a Séimhiú",
   "tense": "past",
   "exercises": [
     {
@@ -11,10 +11,11 @@
     },
     {
       "type": "multiple-choice",
-      "sentence": "____ an bia.",
+      "sentence": "____ an leabhar.",
       "subject": "she",
-      "options": ["thóg sí", "d’ith sí", "nigh sí"],
-      "correctOption": 1
+      "options": ["thóg sí", "tóg sí", "thógann sí"],
+      "correctOption": 0
     }
   ]
 }
+
