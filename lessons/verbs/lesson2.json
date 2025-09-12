@@ -1,0 +1,26 @@
+{
+  "lessonId": 2,
+  "title": "Adding a D'",
+  "tense": "past",
+  "exercises": [
+    {
+      "type": "fill-in-the-blank",
+      "sentence": "____  an úll.",
+      "verb": "I ate",
+      "expectedAnswer": "d'ith mé"
+    },
+    {
+      "type": "multiple-choice",
+      "sentence": "____ an uisce.",
+      "subject": "she",
+      "options": ["ól sí", "d’ól sí", "ólann sí"],
+      "correctOption": 1
+    },
+     {
+      "type": "fill-in-the-blank",
+      "sentence": "____  an oighean.",
+      "verb": "They used",
+      "expectedAnswer": "d'úsáid siad"
+    }
+  ]
+}
